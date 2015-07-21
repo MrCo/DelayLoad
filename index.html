@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>图片按需加载</title>
+    <style type='text/css'>
+        p {
+            margin: 200px 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p><img data-url='imgs/1.jpg'/></p>
+
+        <p><img data-url='imgs/2.jpg'/></p>
+
+        <p><img data-url='imgs/3.jpg'/></p>
+
+        <p><img data-url='imgs/4.jpg'/></p>
+
+        <p><img data-url='imgs/5.jpg'/></p>
+
+        <p><img data-url='imgs/6.jpg'/></p>
+
+        <p><img data-url='imgs/7.jpg'/></p>
+
+        <p><img data-url='imgs/8.jpg'/></p>
+    </div>
+    <script type='text/javascript' src='http://code.jquery.com/jquery-1.7.2.min.js'></script>
+    <script type='text/javascript' src='delayLoad.js'></script>
+    <script type='text/javascript'>
+        $.delayLoad();
+    </script>
+</body>
+</html>
